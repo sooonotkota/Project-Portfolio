@@ -141,3 +141,17 @@ p {
 .email-link:hover {
     text-decoration: underline;
 }
+
+.header-paragraph {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--branding-color)
+}
+
+.header-one {
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 1.5;
+}
