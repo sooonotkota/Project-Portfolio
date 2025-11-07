@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
@@ -20,13 +21,15 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@700&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
-    <title>Dakota Thomas About Me Portfolio Page</title>
+    <meta name="description"
+        content="Learn more about Dakota Thomas—cybersecurity student, front-end developer, and creative thinker blending tech and design.">
+    <title>Dakota Thomas About Me Page</title>
 
 <body>
     <div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Dakota Thomas</a>
+                <a class="navbar-brand" href="index.html">Dakota Thomas</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -34,22 +37,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"></a>
+                            <a class="nav-link" aria-current="page" href="index.html"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html" title="Dakota Homepage">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About me</a>
+                            <a class="nav-link" href="about.html" title="About Dakota">About me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact me</a>
+                            <a class="nav-link" href="work.html" title="Dakotas' Work">My work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="work.html">My work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Me</a>
+                            <a class="nav-link" href="contact.html" title="Contact Dakota">Contact Me</a>
                         </li>
                     </ul>
                 </div>
@@ -57,50 +57,65 @@
         </nav>
 
         <div class="content-container">
-            <div class="row">
+            <div class="row align-items-center">
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 order-2 order-lg-1">
                     <div class="content">
                         <h1 class="mb-4">Hello, I am Dakota Thomas</h1>
                         <h2 class="mb-4">Front-end developer based in Rockford, United States</h2>
                         <p class="mb-5">
-                            I'm currently pursuing my Bachelor's degree in Cybersecurity while working toward a
-                            front-end web development certification. I'm also expanding my skills through additional
-                            cybersecurity certifications to deepen my technical expertise. Outside of academics, I enjoy
-                            playing volleyball, spending time outdoors, and experimenting in the kitchen with cooking
-                            and
-                            baking.
+                            I'm a front-end engineer based in Rockford, Illinois, actively expanding my technical skill
+                            set through a trio of specialized programs. I'm earning a certificate in front-end web
+                            development
+                            through
+                            SheCodes, where I focus on responsive design and interactive user experiences. At the same
+                            time, I'm
+                            pursuing a
+                            cybersecurity certificate from Maryville University of Saint Louis to deepen my
+                            understanding of
+                            digital defense
+                            strategies. To round out my foundation, I'm also working toward a certificate in Information
+                            Technology through
+                            Verizon’s EdX learning program, which strengthens my knowledge of systems, networks, and
+                            troubleshooting. This multifaceted
+                            approach reflects my commitment to becoming a versatile and security-conscious developer
+                            ready to
+                            thrive across
+                            today’s evolving tech landscape.
                         </p>
-                        <a href="" class="btn-branding">Check out my projects!</a>
+                        <a href="work.html" class="btn-branding text-decoration-none">Check out my projects!</a>
                     </div>
                 </div>
 
-                <div class="col-lg-6">
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/174/678/original/20250720_202420791_iOS.jpg?1760115456"
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/598/original/headshot.png?1762552859"
                         class="img-fluid" alt="Headshot of Dakota Thomas" />
                 </div>
             </div>
         </div>
-            <footer>
-                <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
-                    <div>
-                        <h4> Work Inquiry</h4>
-                        <p class="text-muted">Let's work together!</p>
-                    </div>
-                    <div>
-                        <a href="" class="btn-branding">Contact Me</a>
-                    </div>
+        <footer>
+            <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                    <h4> Work Inquiry</h4>
+                    <p class="text-muted">Let's work together!</p>
                 </div>
-                <div class="d-flex justify-content-center mb-5">
-                    <a href="mailto:dakotart08@icloud.com" class="email-link"> dakotart08@icloud.com</a>
+                <div>
+                    <a href="contact.html" class="btn-branding text-decoration-none">Contact Me</a>
                 </div>
-                <div class="social-links d-flex justify-content-center mb-5">
-                    <a href="https://www.linkedin.com/in/dakota-thomas-b6016130a/"> <i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.instagram.com/dakoka_mocha/"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-            </footer>
             </div>
+            <div class="d-flex justify-content-center mb-5">
+                <a href="mailto:dakotart08@icloud.com" class="email-link"> dakotart08@icloud.com</a>
+            </div>
+            <div class="social-links d-flex justify-content-center mb-5">
+                <a href="https://www.linkedin.com/in/dakota-thomas-b6016130a/" title="LinkedIn" target="_blank"> <i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/" title="Github" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p class="text-center mt-5">This project was coded by Dakota Thomas and it is <a
+                    href="https://github.com/ThomasDakota/Project-Portfolio" title="My Code" target="_blank">open
+                    sourced.</a></p>
+        </footer>
+    </div>
 </body>
 
 </html>
